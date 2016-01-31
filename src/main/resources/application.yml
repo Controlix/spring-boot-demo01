@@ -1,2 +1,4 @@
 debug:   true
 
+quotes.ribbon.listOfServers: localhost:8090
+
