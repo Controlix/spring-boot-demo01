@@ -7,6 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import feign.Logger;
+import feign.Logger.Level;
+
 @Controller
 @EnableAutoConfiguration
 @EnableFeignClients
@@ -28,6 +31,11 @@ public class DemoController {
     @Bean
     protected DefaultQuotes defaultQuotes() {
     	return new DefaultQuotes();
+    }
+    
+    @Bean
+    protected Logger.Level feignLogLevel() {
+    	return Level.FULL;
     }
 }
 
