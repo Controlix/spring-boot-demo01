@@ -8,3 +8,5 @@ logging:
 
   level:
     QuoteClient: DEBUG
+
+hystrix.command.greeting.execution.isolation.thread.timeoutInMilliseconds: 300
