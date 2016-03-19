@@ -14,3 +14,9 @@ hystrix.command.greeting.execution.isolation.thread.timeoutInMilliseconds: 300
 management:
   context-path: /monitor
 
+security:
+  ignored:    /
+  user:
+    name:     demo
+    password: spr!ngD3M0
+
