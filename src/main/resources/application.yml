@@ -10,3 +10,7 @@ logging:
     QuoteClient: DEBUG
 
 hystrix.command.greeting.execution.isolation.thread.timeoutInMilliseconds: 300
+
+management:
+  context-path: /monitor
+
