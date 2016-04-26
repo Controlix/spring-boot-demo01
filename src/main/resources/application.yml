@@ -20,3 +20,6 @@ security:
     name:     demo
     password: spr!ngD3M0
 
+spring.cache:
+  cache-names: greetings
+  guava.spec: maximumSize=500,expireAfterAccess=30s
