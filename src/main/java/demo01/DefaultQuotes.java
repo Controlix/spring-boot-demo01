@@ -1,3 +1,5 @@
+package demo01;
+
 public class DefaultQuotes implements QuoteClient {
 
 	@Override

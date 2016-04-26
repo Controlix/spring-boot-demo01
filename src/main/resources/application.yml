@@ -4,7 +4,7 @@ quotes.ribbon.listOfServers: localhost:8090
 
 logging:
   pattern:
-    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [trace=%X{X-Trace-Id:-},span=%X{X-Span-Id:-}] [%15.15t] %-40.40logger{39}: %m%n'
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [trace=%X{X-B3-TraceId:-},span=%X{X-B3-SpanId:-}] [%15.15t] %-40.40logger{39}: %m%n'
 
   level:
     QuoteClient: DEBUG
