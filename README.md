@@ -8,3 +8,5 @@ It includes:
 - feign
 - ribbon
 - hystrix
+- cache
+- spring-security
