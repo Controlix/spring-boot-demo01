@@ -23,3 +23,8 @@ security:
 spring.cache:
   cache-names: greetings
   guava.spec: maximumSize=500,expireAfterAccess=30s
+  
+feign:
+  user: marc
+  pwd:  s0meth1ng2remember
+  
