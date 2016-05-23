@@ -1,4 +1,5 @@
 debug:   true
+server.port:  8070
 
 quotes.ribbon.listOfServers: localhost:8090
 
@@ -27,4 +28,7 @@ spring.cache:
 feign:
   user: marc
   pwd:  s0meth1ng2remember
-  
+ 
+spring.boot.admin:
+  url: http://localhost:8080
+ 
